@@ -17,7 +17,7 @@
   content: '';
   position: absolute;
   top: 0px;
-  left: calc(31% );
+  left: calc(25% );
   bottom: 0px;
   width: 4px;
   background: #ddd;
@@ -37,7 +37,7 @@
 .entry .title {
   margin-bottom: .5em;
   float: left;
-  width: 30%;
+  width: 24%;
   padding-right: 30px;
   text-align: right;
   position: relative;
@@ -66,7 +66,7 @@
 .entry .body {
   margin: 0 0 3em;
   float: right;
-  width: 70%;
+  width: 74%;
   padding-left: 30px;
 }
 .entry .body p {

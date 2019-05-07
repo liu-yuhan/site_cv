@@ -4,22 +4,42 @@ header ul {list-style-type: none; margin-top: 16px;}
 li{ float: left;}
 #top{height: 45px;}
 .row{margin-left: 0px;  margin-right: 0px;}
-.technique img{height: 110px;  width: 110px;}
-.res-img{width: auto;height: auto;max-width: 50%;}
+.banner img{width: auto;height: auto;max-width: 50%;}
 .banner{background-color:  #011331;}
-.skillSectionNotice{display: none;  background: red;  width: 300px;  height: 100px;  position: relative;}
 .list-group button{background-color: #d6eaf8; }
 #skillsContainer:hover .skillSectionNotice{display: inline-block;}
 #bootstrap-logo{top:-15px;}
 #angular-logo{ left:15px;}
 #symfony-logo{  left:-20px;}
 #float-btn{bottom:20px; right: 20px;}
+#btnEmpty{border: #d6eaf8;}
 .carousel-control-prev-icon, .carousel-control-next-icon {height: 100px; width:100px;
   outline: black;background-size: 100%, 100%; /* border: 1px solid black;*/
   background-image: none;}
 .carousel-control-next-icon:after{content: '>';  font-size: 55px; color: red;}
 .carousel-control-prev-icon:after{content: '<'; font-size: 55px; color: red;}
 .btnsSkills{ height: auto; color: black;}
+.skillsBtnZones button{cursor: not-allowed; pointer-events: none;}
 /*.btnsSkills:hover{background-color:#d6eaf8  !important;}
 .btnsSkills:click{background-color:#d6eaf8  !important;}*/
-#aboutMe{height: 400px;}
+#aboutMe img{width:70%;height: auto;}
+@media only screen and (max-width: 576px) {
+  /*xs*/
+}
+@media only screen and (min-width: 576px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+  /*lg*/
+  .btnsSkills{font-size:xx-small;}
+
+
+}
+@media only screen and (min-width:1200px) {
+  /*xl*/
+  .btnsSkills{font-size:medium;}
+
+}

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".navHightlight").on("mouseenter",navbarHighlight);
+    //$(".navHightlight").on("mouseenter",navbarHighlight);
     $(".navHightlight").on("mouseleave",navbarHighlightDispear);
     $("#btnDefaultSkillContent").on("click",refreshDefaultSkillsContent);
     $("#skillHtml").on("click",changeSkillsHtlmContent);
@@ -92,27 +92,27 @@ function symfonyContentChange(e){
 
 function displaySapin(e){
   $(".project-skill").hide(1, "linear");
-  $(".btnsSkills").css({"background-color":"","color":"gray" });
+  $(".btnsSkills").css({"background-color":"","color":" #c5c5c4" });
   $("#sliderProjectSapin").show(1, "linear",function(){
-        $("#btnC").css({"background-color":"red","color":"black"})
+        $(".btnC").css({"background-color":" #daf7a6","color":"black"})
     });
 }
 
 function displayPUBG(e){
   $(".project-skill").hide(1, "linear");
-  $(".btnsSkills").css({"background-color":"","color":"gray" });
+  $(".btnsSkills").css({"background-color":"","color":" #c5c5c4" });
    $("#sliderProjectPUBG").show(1, "linear",
     function(){
-       $("#btnHtml,#btnCss,#btnTwig,#btnMysql,#btnLaravel").css({"background-color":"red","color":"black"})
+       $(".btnHtml, .btnCss, .btnTwig, .btnMysql, .btnLaravel, .btnPhp").css({"background-color":" #daf7a6","color":"black"})
      }
    );
 }
 function displayCV(e) {
   $(".project-skill").hide(1, "linear");
-  $(".btnsSkills").css({"background-color":"","color":"gray" });
+  $(".btnsSkills").css({"background-color":"","color":" #c5c5c4 " });
    $("#projetCV").show(1, "linear",
     function(){
-       $("#btnHtml,#btnCss,#btnBootstrap,#btnJquery,#btnJavascript").css({"background-color":"red","color":"black"})
+       $(".btnHtml, .btnCss, .btnBootstrap, .btnJquery, .btnJavascript").css({"background-color":" #daf7a6","color":"black"})
      }
    );
 }

@@ -2,7 +2,7 @@
 //mail(to,subject,message,headers,parameters)
 //header('Location:index.php')
 
-$to="yuhan.liu2013@gmail.com";
+$to="zhenqingshigan14@gmail.com";
 $subject=$_POST["subjet"];
 $message=$_POST["message"];
 $from=$_POST["email"];

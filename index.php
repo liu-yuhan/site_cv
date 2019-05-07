@@ -22,7 +22,7 @@
                                  aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand text text-danger alert alert-danger py-0 mb-0" href="#">CV under construction</a>
+            <a class="navbar-brand text text-danger alert alert-danger py-0 mb-0" href="https://trello.com/b/YcOlYfLO/cv" target="_blank">CV under construction</a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class=" nav navbar-nav mr-auto mt-2 mt-lg-1 ">
                   <li class="nav-item active mx-5">
@@ -38,10 +38,10 @@
                     <a class="navHightlight nav-link"  href="#Contact">Contact</a>
                   </li>
               </ul>
-              <span >
+              <span id="iconGit" >
                 <a href="https://github.com/liu-yuhan" target="_blank" class="fab fa-github" style="font-size: 2em; color: white;"></a>
               </span>
-              <span class="ml-4 mr-4" >
+              <span id="iconLinkedin" class="ml-4 mr-4" >
                 <a href="https://www.linkedin.com/in/yuhan-liu-b179a0b5/" target="_blank" class="fab fa-linkedin" style="font-size: 2em; color:#0077B5;" ></a>
               </span>
             </div>
@@ -49,15 +49,17 @@
     </nav>
 <!-- -------------------------------- END NAVBAR-------------------------------- -->
     <div class=" row banner d-none d-sm-block" >
-      <img  class=" mx-auto d-block res-img" src="images/banner1920.jpg" alt="banner image" >
+      <img class=" mx-auto d-block res-img" src="images/banner1920.jpg" alt="banner image" >
     </div>
 <!-- ---------------------END BANNER---------------------- -->
-    <section id="aboutMe" title="click on logos to have more details." >
-      <div id="skillsContainer" class="row text-left mx-auto my-1 container" >
-        <div id="selfPresentation" class="col-sm-8  pt-3" >
+    <section id="aboutMe"  class="d-block">
+      <div id="skillsContainer" class="row mx-auto my-1 container"  >
+        <div class="col-12 text-center mx-auto d-xs-block mt-3">
           <h1>About Me</h1>
+        </div>
+          <div id="selfPresentation" class="d-inline-block col col-sm-12 col-lg-8  pt-3" >
           <p> Hello! I am Yuhan Liu. Welcome on my homepage!<br><br>
-                I am a junior developer, I'm currently looking for intership and job opportunities in Paris.<br><br>
+                I am a developer currently looking for internship or job opportunities in Paris.<br><br>
                 I'm immediately available for a full time position.<br><br>
                 I'm currently attending a year-long coding program at Coding Academy by Epitech.<br><br>
                 <!-- insert hyperlink -->
@@ -66,57 +68,56 @@
                 Feel free to contact me using the contact form.
                 <!-- insert hyperlink -->
           </p>
-        </div class='col-sm-3'>
-            <img src="images/face-icon.png" alt="face-icon" height="200px" width="200px">
-        <div>
+        </div >
+        <div class='col col-sm-3 col-lg d-none d-lg-inline-block' >
+            <img class="ml-5 mt-3 res-img"src="images/face-transmignon.png" alt="face-icon" style="width:70%;" >
         </div>
       </div>
     </section>
 <!-- -----------------------------End self presentation section ------------------------------ -->
-    <section id="ProjectAndSkills" class="my-1" >
-      <div class="row d-flex mt-4 col-12"  >
-        <div class="col-12 col-sm-12  p-auto mb-3 text-center  ">
-        <h1>Projects Gallery</h1>
-          <div class="row col-12 col-sm-12 mx-auto">
+    <section id="ProjectAndSkills" class="my-1 d-block " >
+      <div class="row d-flex mt-4 col-12 d-block "  >
+        <div class="col-12 col-sm-12 mb-3">
+          <div class="col-12 text-center">
+            <h1>Projects Gallery</h1>
+          </div>
+          <div class="row">
 <!-- skill buttons -->
-            <div class="skillsBtnZones row col-sm-3">
-              <div id="" class="col-sm-6 list-group float" style="margin-top:72px;">
-                <button type="button" id="btnC" class="btnsSkills list-group-item  border border-secondary"> C </button>
-                <button type="button" id="btnHtml" class="btnsSkills list-group-item  border border-secondary" > HTML </button>
-                <button type="button" id="btnCss" class="btnsSkills list-group-item  border border-secondary"> CSS </button>
-                <button type="button" id="btnBootstrap" class="btnsSkills list-group-item  border border-secondary"> BOOTSTRAP </button>
-                <button type="button" id="btnJavascript" class="btnsSkills list-group-item border border-secondary"> JAVASCRIPT </button>
-                <button type="button" id="btnJquery" class="btnsSkills list-group-item  border border-secondary"> JQUERY </button>
+            <div class="skillsBtnZones ml-5 col-lg-3 d-none d-lg-flex">
+              <div id="" class="col-sm-6 list-group float mx-auto px-auto" style="margin-top:72px;">
+                <button type="button" id="" class="btnHtml btnsSkills list-group-item  border border-secondary" > HTML </button>
+                <button type="button" id="" class="btnCss btnsSkills list-group-item  border border-secondary"> CSS </button>
+                <button type="button" id="" class="btnJavascript btnsSkills list-group-item border border-secondary"> JAVASCRIPT </button>
+                <button type="button" id="" class="btnPhp btnsSkills list-group-item  border border-secondary"> PHP </button>
+                <button type="button" id="" class="btnMysql btnsSkills list-group-item border border-secondary"> MYSQL </button>
+                <button type="button" id="" class="btnC btnsSkills list-group-item  border border-secondary"> C </button>
               </div>
               <div id="" class="col-sm-6 list-group float" style="margin-top:72px;">
-                <button type="button" id="btnTwig" class="btnsSkills list-group-item  border border-secondary"> TWIG </button>
-                <button type="button" id="btnPhp" class="btnsSkills list-group-item  border border-secondary"> PHP </button>
-                <button type="button" id="btnSymfony" class="btnsSkills list-group-item  border border-secondary"> SYMFONY </button>
-                <button type="button" id="btnLaravel" class="btnsSkills list-group-item  border border-secondary"> LARAVEL </button>
-                <button type="button" id="btnMysql" class="btnsSkills list-group-item border border-secondary"> MYSQL </button>
+                <button type="button" id="btnEmpty" class="btnsSkills list-group-item ">     </button>
+                <button type="button" id="" class="btnBootstrap btnsSkills list-group-item   border border-secondary"> BOOTSTRAP </button>
+                <button type="button" id="" class="btnJquery btnsSkills list-group-item  border border-secondary"> JQUERY </button>
+                <button type="button" id="" class="btnSymfony btnsSkills list-group-item  border border-secondary"> SYMFONY </button>
+                <button type="button" id="" class="btnLaravel btnsSkills list-group-item  border border-secondary"> LARAVEL </button>
+                <button type="button" id="" class="btnTwig btnsSkills list-group-item  border border-secondary"> TWIG </button>
               </div>
             </div>
 
 <!-- project buttons -->
-            <div class=" col-12 col-sm-9 mx-auto"  >
-              <div class="col-10">
-                <button id="btnProjectPUBG" class="col-3 col-sm-2 btn btn-outline-success btn-lg mt-2 "  href="#sliderProjectPUBG"  type="button" >PUBG </button>
-                <button id="btnProjectSapin"  class="col-3  col-sm-2 btn btn-outline-success btn-lg mt-2" type="button">C Tree</button>
-                <button id="btnProjecCV" class="col-3  col-sm-2 btn btn-outline-success btn-lg mt-2" type="button" >CV</button>
-                ---- click to browse projects !
+            <div class="sliderZone col-12 col-lg-8 mx-auto"  >
+              <div class="col-lg-12 ">
+                <button id="btnProjectPUBG" class="col-12 col-md-3 ml-md-3 col-lg-3 btn btn-outline-success btn-lg mt-2 "  href="#sliderProjectPUBG"  type="button" >PUBG </button>
+                <button id="btnProjectSapin"  class="col-12 col-md-3 offset-md-1 col-lg-3 offset-lg-0 btn btn-outline-success btn-lg mt-2" type="button">C Tree</button>
+                <button id="btnProjecCV" class="col-12 col-md-3 offset-md-1 col-lg-3 offset-lg-0 btn btn-outline-success btn-lg mt-2" type="button" >CV</button>
               </div>
             <!--Cover image for  project-skill section -->
-              <div class="border border-dark mt-3 col-10  " style="height:auto">
-                <div class="carousel-inner my-auto project-skill ">
-                  <div id="coverImg" class="carousel-item active my-auto ">
-                    <img class="d-block w-100" src="images/project-skill.jpeg" alt="cover img" s>
-                      <div class="carousel-caption" style="font-size: 50px;">
-                        <p>click buttons above for details</p>
-                      </div>
+              <div class="border border-dark mt-3 col-lg-10  " style="height:auto">
+                <div class="col-sm-4 offset-sm-4 carousel-inner my-auto project-skill text-center ">
+                  <div id="coverImg" class="carousel-item active my-auto pt-3 pb-3 ">
+                    <img class="d-block w-100" src="images/click1.png" alt="cover img" >
                   </div>
                 </div>
 <!-- gif for  C-sapin-->
-                <div id="sliderProjectSapin" class="carousel-inner my-auto project-skill" style="display:none">
+                <div id="sliderProjectSapin" class="carousel-inner my-auto project-skill text-center " style="display:none">
                   <span>
                     <a href="https://github.com/liu-yuhan/sapin.git" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
                   </span>
@@ -125,7 +126,7 @@
                   </div>
                 </div>
 <!--slider for project PUBG-->
-                <div id="sliderProjectPUBG" class="project-skill" style="display:none" >
+                <div id="sliderProjectPUBG" class="project-skill text-center" style="display:none" >
                 <span>
                   <a href="https://github.com/liu-yuhan/Laravel_PUBG.git" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
                 </span>
@@ -157,12 +158,32 @@
                   </div>
                 </div>
 <!-- temp tester for cv slider-->
-                <div id="projetCV" class="carousel-inner my-auto project-skill" style="display:none">
+                <div id="projetCV" class="carousel-inner my-auto project-skill text-center" style="display:none">
                   <span>
-                    <a href="https://github.com/liu-yuhan/sapin.git" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
+                    <a href="https://github.com/liu-yuhan/site_cv" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
                   </span>
-                  <div class="carousel-item active my-auto mx-auto"   style="width:80%">
-                    <img class="my-3 d-block w-100" src="images/soon.jpg" alt="projetCV">
+                  <div class="carousel-item active my-auto mx-auto"   style="width:40%">
+                    <img class="my-3 d-block w-100" src="images/you-are-here.png" alt="projetCV">
+                    <a href="http://yuhanliu.me"><h4>http://yuhanliu.me</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="d-lg-none ">
+                <div class="skillsBtnZones">
+                  <div id="" class="row ">
+                    <button type="button" id="" class="col col-2 btnHtml btnsSkills btn-sm btn-outline-success" > HTML </button>
+                    <button type="button" id="" class="col col-2 btnCss btnsSkills btn-sm  btn-outline-success"> CSS </button>
+                    <button type="button" id="" class="col col-2 btnJavascript btnsSkills btn-sm  btn-outline-success"> JAVASCRIPT </button>
+                    <button type="button" id="" class="col col-2 btnPhp btnsSkills btn-sm btn-outline-success"> PHP </button>
+                    <button type="button" id="" class="col col-2  btnMysql btnsSkills btn-sm btn-outline-success"> MYSQL </button>
+                    <button type="button" id="" class="col col-2 btnC btnsSkills btn-sm  btn-outline-success"> C </button>
+                  </div>
+                  <div id="" class="row " >
+                    <button type="button" id="" class="col col-2 ml-5 btnBootstrap btnsSkills btn-sm btn-outline-success"> BOOTSTRAP </button>
+                    <button type="button" id="" class="col col-2 btnJquery btnsSkills btn-sm  btn-sm btn-outline-success"> JQUERY </button>
+                    <button type="button" id="" class="col col-2 btnSymfony btnsSkills btn-sm  btn-sm btn-outline-success"> SYMFONY </button>
+                    <button type="button" id="" class="col col-2 btnLaravel btnsSkills btn-sm  btn-sm btn-outline-success"> LARAVEL </button>
+                    <button type="button" id="" class="col col-2 btnTwig btnsSkills btn-sm btn-outline-success"> TWIG </button>
                   </div>
                 </div>
               </div>
@@ -172,7 +193,7 @@
         </div>
       </div>
     </div>
-    </section>
+  </section>
 <!---------------------------------------   END PROJECTS SECTION------------------------------------>
     <section id="Education" class="row" >
       <div class="timeline mx-auto text-center ">
@@ -212,31 +233,34 @@
       </div>
     </section>
 <!---------------------------------------   END EDUCATION SECTION------------------------------------>
-        <section id="Contact" class="" >
-    <div class="row">
-        <div class="my-2 mx-auto">
-            <h1 class="mx-auto">Contact</h1>
+    <section id="Contact" class="container " >
+      <div class="row">
+          <div class="my-2 mx-auto">
+              <h1 class="mx-auto">Contact</h1>
+          </div>
+      </div>
+      <div class="row contactForm container border border-success mb-3">
+        <div class="col-md-2 mt-5 pl-5 offset-md-1 ">
+          <img class="mt-4" src="images/mail.png" alt="iconEmail" style="width:100%; height:auto;">
         </div>
-    </div>
-
-      <form class="container rounded border border-danger mb-5" name="contactForm" action="mail.php" method="post">
-        <div class="form-group row mt-5 ">
-          <label for="txtName" class="col-sm-2 control-label mt-2">Subject</label>
-            <input type="text" class="form-control col-sm-8" name="subject" placeholder="subject">
+        <div class="col-md-7">
+          <form class="container rounded mb-5" name="contactForm" action="mail.php" method="post">
+            <div class="form-group row mt-5 ">
+                <input type="text" class="form-control " name="subject" placeholder="subject">
+            </div>
+            <div class="form-group row ">
+              <input type="email" class="form-control" name="email" placeholder="email">
+            </div>
+            <div class="form-group row">
+                  <textarea type="text" class="form-control" name="message" placeholder="message"></textarea>
+            </div>
+            <div class="row mb-2">
+            <button type="submit" class="btn btn-outline-success btn-lg  mx-auto " name="submit">Send</button>
+            </div>
+          </form>
         </div>
-        <div class="form-group row ">
-          <label for="txtEmail" class="control-label col-sm-2 " >Email</label>
-          <input type="email" class="form-control col-sm-8" name="email" placeholder="email">
-        </div>
-        <div class="form-group row">
-          <label for="txtMessage" class="control-label col-sm-2">Message</label>
-          <textarea type="text" class="form-control col-sm-8" name="message" placeholder="message"></textarea>
-        </div>
-        <div class="row mb-3">
-        <button type="submit" class="btn btn-outline-warning btn-lg  mx-auto " name="submit">Send</button>
-        </div>
-      </form>
-</section>
+      </div>
+    </section>
 <!-- ---------------------END CONTACT SECTION---------------------- -->
   <section id="float-btn" class="scrollUp fixed-bottom">
     <div class="row">
