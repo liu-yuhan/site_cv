@@ -78,9 +78,6 @@
     <section id="ProjectAndSkills" class="my-1 d-block " >
       <div class="row d-flex mt-4 col-12 d-block "  >
         <div class="col-12 col-sm-12 mb-3">
-          <div class="col-12 text-center">
-            <h1>Projects Gallery</h1>
-          </div>
           <div class="row">
 <!-- skill buttons -->
             <div class="skillsBtnZones ml-5 col-lg-3 d-none d-lg-flex">
@@ -88,14 +85,18 @@
                 <button type="button" id="" class="btnHtml btnsSkills list-group-item  border border-secondary" > HTML </button>
                 <button type="button" id="" class="btnCss btnsSkills list-group-item  border border-secondary"> CSS </button>
                 <button type="button" id="" class="btnJavascript btnsSkills list-group-item border border-secondary"> JAVASCRIPT </button>
+                <button type="button" id="" class="btnNode btnsSkills list-group-item border border-secondary"> NODEJS </button>
                 <button type="button" id="" class="btnPhp btnsSkills list-group-item  border border-secondary"> PHP </button>
                 <button type="button" id="" class="btnMysql btnsSkills list-group-item border border-secondary"> MYSQL </button>
+                <button type="button" id="" class="btnMongo btnsSkills list-group-item border border-secondary"> MONGODB </button>
                 <button type="button" id="" class="btnC btnsSkills list-group-item  border border-secondary"> C </button>
               </div>
               <div id="" class="col-sm-6 list-group float" style="margin-top:72px;">
                 <button type="button" id="btnEmpty" class="btnsSkills list-group-item ">     </button>
                 <button type="button" id="" class="btnBootstrap btnsSkills list-group-item   border border-secondary"> BOOTSTRAP </button>
                 <button type="button" id="" class="btnJquery btnsSkills list-group-item  border border-secondary"> JQUERY </button>
+                <button type="button" id="" class="btnExpress btnsSkills list-group-item  border border-secondary"> EXPRESS </button>
+                <button type="button" id="" class="btnReact btnsSkills list-group-item  border border-secondary"> REACT </button>
                 <button type="button" id="" class="btnSymfony btnsSkills list-group-item  border border-secondary"> SYMFONY </button>
                 <button type="button" id="" class="btnLaravel btnsSkills list-group-item  border border-secondary"> LARAVEL </button>
                 <button type="button" id="" class="btnTwig btnsSkills list-group-item  border border-secondary"> TWIG </button>
@@ -104,54 +105,74 @@
 
 <!-- project buttons -->
             <div class="sliderZone col-12 col-lg-8 mx-auto"  >
+              <div class="col-12  col-lg-8 text-center">
+                <h1>Projects Gallery</h1>
+              </div>
               <div class="col-lg-12 ">
-                <button id="btnProjectPUBG" class="col-12 col-md-3 ml-md-3 col-lg-3 btn btn-outline-success btn-lg mt-2 "  href="#sliderProjectPUBG"  type="button" >PUBG </button>
-                <button id="btnProjectSapin"  class="col-12 col-md-3 offset-md-1 col-lg-3 offset-lg-0 btn btn-outline-success btn-lg mt-2" type="button">C Tree</button>
-                <button id="btnProjecCV" class="col-12 col-md-3 offset-md-1 col-lg-3 offset-lg-0 btn btn-outline-success btn-lg mt-2" type="button" >CV</button>
+                <button id="btnProjectAlloCine" class="col-12 col-md-3 col-lg-2 btn btn-outline-success  mt-2 "  href="#sliderProjectAlloCine"  type="button" >ClownAlloCine</button>
+                <button id="btnProject2048"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button">2048</button>
+                <button id="btnProjectSapin"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button">C Tree</button>
+                <button id="btnProjecCV" class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button" >CV</button>
               </div>
             <!--Cover image for  project-skill section -->
-              <div class="border border-dark mt-3 col-lg-10  " style="height:auto">
+              <div class="border border-dark mt-3 col-lg-11  " style="height:auto">
                 <div class="col-sm-4 offset-sm-4 carousel-inner my-auto project-skill text-center ">
                   <div id="coverImg" class="carousel-item active my-auto pt-3 pb-3 ">
                     <img class="d-block w-100" src="images/click1.png" alt="cover img" >
                   </div>
                 </div>
-<!-- gif for  C-sapin-->
+
+            <!-- gif for  JQUERY  2048 -->
+                <div id="sliderProject2048" class="carousel-inner my-auto project-skill text-center " style="display:none">
+                    <span>
+                        <a href="https://github.com/liu-yuhan/Jquey-2048" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
+                    </span>
+                    <div class="carousel-item active my-auto mx-auto"   style="width:80%">
+                        <img class="my-3 d-block w-100" src="images/2048.gif " alt="gif for 2048 projet">
+                    </div>
+                </div>
+
+                <!-- gif for  C-sapin-->
                 <div id="sliderProjectSapin" class="carousel-inner my-auto project-skill text-center " style="display:none">
                   <span>
-                    <a href="https://github.com/liu-yuhan/sapin.git" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
+                    <a href="https://github.com/liu-yuhan/sapin" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
                   </span>
                   <div class="carousel-item active my-auto mx-auto"   style="width:80%">
                     <img class="my-3 d-block w-100" src="images/Sapin.gif" alt="gif for sapin projet">
                   </div>
                 </div>
-<!--slider for project PUBG-->
-                <div id="sliderProjectPUBG" class="project-skill text-center" style="display:none" >
+
+<!--slider for project Allocine-->
+                <div id="sliderProjectAlloCine" class="project-skill text-center " style="display:none" >
                 <span>
-                  <a href="https://github.com/liu-yuhan/Laravel_PUBG.git" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
+                  <a href="https://github.com/liu-yuhan/cloneAlloCine" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
                 </span>
-                  <div id="sliderProjectPUBGContent" class="carousel slide my-auto" data-ride="carousel"  >
+                  <div id="sliderProjectAlloCineContent" class="carousel slide my-3" data-ride="carousel"  >
                     <ol class="carousel-indicators">
-                      <li data-target="#sliderProjectPUBG1" data-slide-to="0" class="active"></li>
-                      <li data-target="#sliderProjectPUBG2" data-slide-to="1"></li>
-                      <li data-target="#sliderProjectPUBG3" data-slide-to="2"></li>
+                      <li data-target="#sliderProjectAlloCine1" data-slide-to="0" class="active"></li>
+                      <li data-target="#sliderProjectAlloCine2" data-slide-to="1"></li>
+                      <li data-target="#sliderProjectAlloCine3" data-slide-to="2"></li>
+                      <li data-target="#sliderProjectAlloCine4" data-slide-to="3"></li>
                     </ol>
                     <div class="carousel-inner my-auto">
-                      <div id="sliderProjectPUBG1"class="carousel-item my-auto active">
-                        <img class="d-block w-100" src="images/project-pubg/players_dashboard.png" alt="First slide">
+                      <div id="sliderProjectAlloCine1"class="carousel-item my-auto active">
+                        <img class="d-block w-100" src="images/Allocine1.png" alt="First slide">
                       </div>
-                      <div  id="sliderProjectPUBG2" class="carousel-item my-auto" >
-                        <img class="d-block w-100" src="images/project-pubg/match_dashboard.png" alt="Second slide">
+                      <div  id="sliderProjectAlloCine2" class="carousel-item my-auto" >
+                        <img class="d-block w-100" src="images/Allocine3.png" alt="Second slide">
                       </div>
-                      <div  id="sliderProjectPUBG3" class="carousel-item my-auto" >
-                        <img class="d-block w-100" src="images/project-pubg/pubg-index.png" alt="Third slide" >
+                      <div  id="sliderProjectAlloCine3" class="carousel-item my-auto" >
+                        <img class="d-block w-100" src="images/Allocine2.png" alt="Third slide" >
+                      </div>
+                      <div  id="sliderProjectAlloCine3" class="carousel-item my-auto" >
+                        <img class="d-block w-100" src="images/symfonyProject.gif" alt="Third slide" >
                       </div>
                     </div>
-                    <a class="carousel-control-prev" href="#sliderProjectPUBGContent" role="button" data-slide="prev" >
+                    <a class="carousel-control-prev" href="#sliderProjectAlloCineContent" role="button" data-slide="prev" >
                       <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
                       <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#sliderProjectPUBGContent" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#sliderProjectAlloCineContent" role="button" data-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
@@ -174,13 +195,17 @@
                     <button type="button" id="" class="col col-2 btnHtml btnsSkills btn-sm btn-outline-success" > HTML </button>
                     <button type="button" id="" class="col col-2 btnCss btnsSkills btn-sm  btn-outline-success"> CSS </button>
                     <button type="button" id="" class="col col-2 btnJavascript btnsSkills btn-sm  btn-outline-success"> JAVASCRIPT </button>
+                    <button type="button" id="" class="col col-2 btnNode btnsSkills btn-sm  btn-outline-success"> NODEJS </button>
                     <button type="button" id="" class="col col-2 btnPhp btnsSkills btn-sm btn-outline-success"> PHP </button>
                     <button type="button" id="" class="col col-2  btnMysql btnsSkills btn-sm btn-outline-success"> MYSQL </button>
+                    <button type="button" id="" class="col col-2  btnMongo btnsSkills btn-sm btn-outline-success"> MONGODB </button>
                     <button type="button" id="" class="col col-2 btnC btnsSkills btn-sm  btn-outline-success"> C </button>
                   </div>
                   <div id="" class="row " >
                     <button type="button" id="" class="col col-2 ml-5 btnBootstrap btnsSkills btn-sm btn-outline-success"> BOOTSTRAP </button>
                     <button type="button" id="" class="col col-2 btnJquery btnsSkills btn-sm  btn-sm btn-outline-success"> JQUERY </button>
+                    <button type="button" id="" class="col col-2 btnJquery btnsSkills btn-sm  btn-sm btn-outline-success"> EXPRESS </button>
+                    <button type="button" id="" class="col col-2 btnJquery btnsSkills btn-sm  btn-sm btn-outline-success"> REACT </button>
                     <button type="button" id="" class="col col-2 btnSymfony btnsSkills btn-sm  btn-sm btn-outline-success"> SYMFONY </button>
                     <button type="button" id="" class="col col-2 btnLaravel btnsSkills btn-sm  btn-sm btn-outline-success"> LARAVEL </button>
                     <button type="button" id="" class="col col-2 btnTwig btnsSkills btn-sm btn-outline-success"> TWIG </button>
