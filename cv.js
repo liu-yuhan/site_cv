@@ -32,6 +32,7 @@ function displayAlloCine(e){
      }
    )
 }
+
 function displayCV(e) {
   $(".project-skill").hide(1, "linear");
   $(".btnsSkills").css({"background-color":"","color":" #c5c5c4" })

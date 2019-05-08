@@ -61,11 +61,11 @@
           <p> Hello! I am Yuhan Liu. Welcome on my homepage!<br><br>
                 I am a developer currently looking for internship or job opportunities in Paris.<br><br>
                 I'm immediately available for a full time position.<br><br>
-                I'm currently attending a year-long coding program at Coding Academy by Epitech.<br><br>
+                I'm currently attending a year-long coding program at <a href="https://www.coding-academy.fr/">Coding Academy by Epitech</a> .<br><br>
                 <!-- insert hyperlink -->
-                I'm mainly interested in PHP and full-stack web development, I have a preference for backend development.
-                 I'm excited for any new opportunity as I aim to be a versatile developer, even beyond web development.<br><br>
-                Feel free to contact me using the contact form.
+                I'm mainly interested in full-stack web development with stacks such as <a href="https://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a> or <a href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)">MERN</a>.
+                I'm excited for any new opportunity as I aim to be a versatile developer, even beyond web development.<br><br>
+                Feel free to contact me using the <a href="#Contact">contact form</a>.
                 <!-- insert hyperlink -->
           </p>
         </div >
@@ -109,10 +109,10 @@
                 <h1>Projects Gallery</h1>
               </div>
               <div class="col-lg-12 ">
-                <button id="btnProjectAlloCine" class="col-12 col-md-3 col-lg-2 btn btn-outline-success  mt-2 "  href="#sliderProjectAlloCine"  type="button" >ClownAlloCine</button>
+                <button id="btnProjectAlloCine" class="col-12 col-md-3 col-lg-2 btn btn-outline-success  mt-2 "  href="#sliderProjectAlloCine"  type="button" >Clone AlloCine</button>
                 <button id="btnProject2048"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button">2048</button>
                 <button id="btnProjectSapin"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button">C Tree</button>
-                <button id="btnProjecCV" class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button" >CV</button>
+                <button id="btnProjecCV" class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button" >Online CV</button>
               </div>
             <!--Cover image for  project-skill section -->
               <div class="border border-dark mt-3 col-lg-11  " style="height:auto">
@@ -226,8 +226,8 @@
         <div class="entry">
           <div class="title">
             <h3>June 2018- Present</h3>
-            <p>Formation Coding Academy by Epitech</p>
-            <img src="images/coding-academy-trans.png" alt="logo Coding-academy" style="height:100px; ">
+            <p>Formation <a href="https://www.coding-academy.fr/">Coding Academy by Epitech</p>
+            <img src="images/coding-academy-trans.png" alt="logo Coding-academy" style="height:100px; "></a>
           </div>
           <div class="body">
             <p>Intensive teaching of versatile developer skills, projects based, with an active
