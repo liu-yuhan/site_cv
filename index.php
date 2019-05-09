@@ -92,8 +92,8 @@
                 <button type="button" id="" class="btnC btnsSkills list-group-item  border border-secondary"> C </button>
               </div>
               <div id="" class="col-sm-6 list-group float" style="margin-top:72px;">
-                <button type="button" id="btnEmpty" class="btnsSkills list-group-item ">     </button>
                 <button type="button" id="" class="btnBootstrap btnsSkills list-group-item   border border-secondary"> BOOTSTRAP </button>
+                <button type="button" id="" class="btnMaterialize btnsSkills list-group-item   border border-secondary"> MATERIALIZE </button>
                 <button type="button" id="" class="btnJquery btnsSkills list-group-item  border border-secondary"> JQUERY </button>
                 <button type="button" id="" class="btnExpress btnsSkills list-group-item  border border-secondary"> EXPRESS </button>
                 <button type="button" id="" class="btnReact btnsSkills list-group-item  border border-secondary"> REACT </button>
@@ -108,12 +108,14 @@
               <div class="col-12  col-lg-8 text-center">
                 <h1>Projects Gallery</h1>
               </div>
-              <div class="col-lg-12 ">
+              <div class="col-lg-12 mx-auto ml-3 ">
                 <button id="btnProjectAlloCine" class="col-12 col-md-3 col-lg-2 btn btn-outline-success  mt-2 "  href="#sliderProjectAlloCine"  type="button" >Clone AlloCine</button>
-                <button id="btnProject2048"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button">2048</button>
-                <button id="btnProjectSapin"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button">C Tree</button>
-                <button id="btnProjecCV" class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-1 btn btn-outline-success  mt-2" type="button" >Online CV</button>
+                <button id="btnProject2048"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-0 btn btn-outline-success  mt-2" type="button">2048</button>
+                <button id="btnProjectEboutique"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-0 btn btn-outline-success  mt-2" type="button">E-boutique</button>
+                <button id="btnProjectSapin"  class="col-12 col-md-3 offset-md-1 col-lg-2 offset-lg-0 btn btn-outline-success  mt-2" type="button">C Tree</button>
+                <button id="btnProjectCV" class="col-12 col-md-3 offset-md-1 offset-lg-0 col-lg-2  btn btn-outline-success  mt-2" type="button" >Online CV</button>
               </div>
+
             <!--Cover image for  project-skill section -->
               <div class="border border-dark mt-3 col-lg-11  " style="height:auto">
                 <div class="col-sm-4 offset-sm-4 carousel-inner my-auto project-skill text-center ">
@@ -129,6 +131,16 @@
                     </span>
                     <div class="carousel-item active my-auto mx-auto"   style="width:80%">
                         <img class="my-3 d-block w-100" src="images/2048.gif " alt="gif for 2048 projet">
+                    </div>
+                </div>
+
+              <!-- gif for E-boutique -->
+                <div id="sliderProjectEboutique" class="carousel-inner my-auto project-skill text-center " style="display:none">
+                    <span>
+                        <a href="https://github.com/liu-yuhan/e-boutique" target="_blank" class="fab fa-github" style="font-size: 3em; color:black"></a>
+                    </span>
+                    <div class="carousel-item active my-auto mx-auto"   style="width:80%">
+                        <img class="my-3 d-block w-100" src="images/E-boutique.gif" alt="gif for E-boutique projet">
                     </div>
                 </div>
 

@@ -4,7 +4,8 @@ $(document).ready(function(){
     $("#btnProject2048").on("click",display2048)
     $("#btnProjectSapin").on("click",displaySapin)
     $("#btnProjectAlloCine").on("click",displayAlloCine)
-    $("#btnProjecCV").on("click",displayCV)
+    $("#btnProjectCV").on("click",displayCV)
+    $("#btnProjectEboutique").on("click",displayEboutique)
 })
 
 function display2048(e){
@@ -20,6 +21,14 @@ function displaySapin(e){
   $(".btnsSkills").css({"background-color":"","color":" #c5c5c4" })
   $("#sliderProjectSapin").show(1, "linear",function(){
         $(".btnC").css({"background-color":" #daf7a6","color":"black"})
+    })
+}
+
+function displayEboutique(e){
+  $(".project-skill").hide(1, "linear")
+  $(".btnsSkills").css({"background-color":"","color":" #c5c5c4" })
+  $("#sliderProjectEboutique").show(1, "linear",function(){
+        $(".btnHtml, .btnCss, .btnMaterialize, .btnJquery").css({"background-color":" #daf7a6","color":"black"})
     })
 }
 
